@@ -60,7 +60,7 @@
   		                     },
 
                              editable: true,
-                             events: SITEURL + "/fullcalender", //事件
+                             events: SITEURL + "/", //事件
                              displayEventTime: false,
                              editable: true,
                              eventRender: function (event, element, view) {

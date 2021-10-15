@@ -18,7 +18,7 @@ use App\Http\Controllers\FullCalenderController;
 //     return view('welcome');
 // });
 
-Route::get('fullcalender',[FullCalenderController::class,'index']);
+Route::get('/',[FullCalenderController::class,'index']);
 Route::POST('fullcalenderAjax',[FullCalenderController::class,'action']);
 
 Route::get('/dashboard', function () {
