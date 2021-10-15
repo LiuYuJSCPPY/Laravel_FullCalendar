@@ -15,8 +15,6 @@ class User extends Seeder
     public function run()
     {
         //
-        User::create([
-            'name' =
-        ])
+
     }
 }

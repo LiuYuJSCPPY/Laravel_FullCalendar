@@ -60,7 +60,7 @@
   		                     },
 
                              editable: true,
-                             events: SITEURL + "/", //事件
+                             events: SITEURL , //事件
                              displayEventTime: false,
                              editable: true,
                              eventRender: function (event, element, view) {
@@ -89,7 +89,7 @@
                                          },
                                          type: "POST",
                                          success: function (data) {
-                                             displayMessage("成功更新");
+                                             displayMessage("成功新增");
 
                                              calendar.fullCalendar('renderEvent',
                                                  {
