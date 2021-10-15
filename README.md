@@ -34,7 +34,7 @@
 * 當進到首頁時sever端，會去Session抓取資料判斷是否已經登入，當沒有登入的狀態會直接進到login頁面。
 
 #### 以下是沒有登入的狀態
-![image](https://github.com/LiuYuJSCPPY/Laravel_FullCalendar/blob/master/Laravel_%E8%A1%8C%E4%BA%8B%E6%9B%86_%E7%99%BB%E5%85%A5%E7%8B%80%E6%85%8B.gif)
+![image](https://github.com/LiuYuJSCPPY/Laravel_FullCalendar/blob/master/Laravel_%E8%A1%8C%E4%BA%8B%E6%9B%86_%E6%B2%92%E6%9C%89%E7%99%BB%E5%85%A5%E7%8B%80%E6%85%8B.gif)
 
 #### 以下是登入的狀態
 ![image](https://github.com/LiuYuJSCPPY/Laravel_FullCalendar/blob/master/Laravel_%E8%A1%8C%E4%BA%8B%E6%9B%86_%E7%99%BB%E5%85%A5%E7%8B%80%E6%85%8B.gif)
