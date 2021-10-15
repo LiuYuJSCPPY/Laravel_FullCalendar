@@ -15,7 +15,6 @@ class FullCalenderController extends Controller
             if($request->ajax()){
 
                 $data = event::whereDate('start','>=',$request->start)->whereDate('end','<=',$request->end)->get();
-
                 return response()->json($data);
             }
             return view('index');

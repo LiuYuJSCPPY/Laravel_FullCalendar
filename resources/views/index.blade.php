@@ -27,7 +27,7 @@
                     <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">登出</a>
 
                     @if (Route::has('register'))
-                        <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">申請會員</a>
+                        <a href="{{ route('register') }}" style="font-size: 18px;" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">申請會員</a>
                     @endif
                 @endauth
             </div>
